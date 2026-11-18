@@ -1,0 +1,32 @@
+{
+  "trial": 14,
+  "proxy_validation_accuracy": 69.42,
+  "config": {
+    "channels": [
+      24,
+      16,
+      48,
+      96,
+      32,
+      48
+    ],
+    "kernels": [
+      5,
+      3,
+      5,
+      3,
+      3,
+      7
+    ],
+    "ops": [
+      "dw",
+      "dw",
+      "conv",
+      "dw",
+      "conv",
+      "dw"
+    ],
+    "activation": "relu6",
+    "resolution": 40
+  }
+}

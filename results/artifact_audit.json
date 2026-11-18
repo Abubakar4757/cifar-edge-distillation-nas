@@ -1,0 +1,106 @@
+{
+  "kd": {
+    "archive_sha256": "65385e09904e7ea9526346cf990ce0fb458bbd4fa2a71c18878b6ff0d97e7290",
+    "verified_output_hashes": 26,
+    "best_validation_epochs_and_accuracy": {
+      "teacher": [
+        31,
+        67.12
+      ],
+      "squeezenet_distilled": [
+        21,
+        29.74
+      ],
+      "squeezenet_baseline": [
+        1,
+        1.0
+      ],
+      "mobilenet_v2_baseline": [
+        22,
+        60.58
+      ],
+      "mobilenet_v2_distilled": [
+        22,
+        63.52
+      ],
+      "efficientnet_lite0_baseline": [
+        22,
+        58.68
+      ],
+      "efficientnet_lite0_distilled": [
+        22,
+        63.82
+      ]
+    },
+    "test_images": 10000,
+    "benchmark_rows": 12
+  },
+  "nas": {
+    "archive_sha256": "a11065e6f476b6f9c8c9ba6ea5a7e8fb5a9df2a07dfdd919432c1c95998d33d3",
+    "verified_output_hashes": 26,
+    "best_validation_epochs_and_accuracy": {
+      "nas_winner": [
+        34,
+        84.64
+      ],
+      "candidate_00": [
+        4,
+        48.36
+      ],
+      "candidate_02": [
+        4,
+        62.9
+      ],
+      "candidate_04": [
+        4,
+        62.94
+      ],
+      "candidate_05": [
+        4,
+        61.04
+      ],
+      "candidate_06": [
+        4,
+        57.42
+      ],
+      "candidate_08": [
+        4,
+        60.3
+      ],
+      "candidate_09": [
+        4,
+        64.5
+      ],
+      "candidate_10": [
+        4,
+        61.5
+      ],
+      "candidate_11": [
+        4,
+        58.72
+      ],
+      "candidate_12": [
+        4,
+        56.8
+      ],
+      "candidate_14": [
+        4,
+        69.42
+      ],
+      "candidate_15": [
+        4,
+        62.94
+      ],
+      "candidate_16": [
+        4,
+        69.06
+      ],
+      "candidate_17": [
+        4,
+        66.28
+      ]
+    },
+    "test_images": 10000,
+    "benchmark_rows": 2
+  }
+}

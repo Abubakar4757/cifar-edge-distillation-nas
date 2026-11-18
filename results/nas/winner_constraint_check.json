@@ -1,0 +1,12 @@
+{
+  "p50_ms": 1.9893325000000002,
+  "p95_ms": 2.2215194,
+  "samples": 100,
+  "bytes": 251189,
+  "process_peak_rss_bytes": 3791650816,
+  "limits": {
+    "p50_ms": 4.0,
+    "bytes": 1048576
+  },
+  "passes": true
+}

@@ -1,0 +1,132 @@
+{
+  "host": "Windows-11-10.0.26200-SP0",
+  "torch": "2.11.0+cpu",
+  "onnxruntime": "1.31.1",
+  "full_test_repeated": false,
+  "verified_original_file_hashes": 52,
+  "seeded_smoke_batch": 3,
+  "cpu_threads": 1,
+  "measurements": [
+    {
+      "name": "efficientnet_lite0_baseline",
+      "classes": 100,
+      "input_resolution": 32,
+      "parameters": 3499108,
+      "checkpoint_bytes": 14274183,
+      "selected_epoch": 22,
+      "validation_accuracy": 58.68,
+      "onnx_bytes": 13951421,
+      "cpu_smoke_max_logit_error": 2.86102294921875e-06,
+      "cpu_smoke_predictions": [
+        39,
+        39,
+        39
+      ]
+    },
+    {
+      "name": "efficientnet_lite0_distilled",
+      "classes": 100,
+      "input_resolution": 32,
+      "parameters": 3499108,
+      "checkpoint_bytes": 14274485,
+      "selected_epoch": 22,
+      "validation_accuracy": 63.82,
+      "onnx_bytes": 13951421,
+      "cpu_smoke_max_logit_error": 2.86102294921875e-06,
+      "cpu_smoke_predictions": [
+        39,
+        39,
+        39
+      ]
+    },
+    {
+      "name": "mobilenet_v2_baseline",
+      "classes": 100,
+      "input_resolution": 32,
+      "parameters": 2351972,
+      "checkpoint_bytes": 9657227,
+      "selected_epoch": 22,
+      "validation_accuracy": 60.58,
+      "onnx_bytes": 9380666,
+      "cpu_smoke_max_logit_error": 5.245208740234375e-06,
+      "cpu_smoke_predictions": [
+        39,
+        39,
+        39
+      ]
+    },
+    {
+      "name": "mobilenet_v2_distilled",
+      "classes": 100,
+      "input_resolution": 32,
+      "parameters": 2351972,
+      "checkpoint_bytes": 9657611,
+      "selected_epoch": 22,
+      "validation_accuracy": 63.52,
+      "onnx_bytes": 9380666,
+      "cpu_smoke_max_logit_error": 2.86102294921875e-06,
+      "cpu_smoke_predictions": [
+        39,
+        39,
+        39
+      ]
+    },
+    {
+      "name": "squeezenet_baseline",
+      "classes": 100,
+      "input_resolution": 32,
+      "parameters": 773796,
+      "checkpoint_bytes": 3116159,
+      "selected_epoch": 1,
+      "validation_accuracy": 1.0,
+      "onnx_bytes": 3111482,
+      "cpu_smoke_max_logit_error": 0.0,
+      "cpu_smoke_predictions": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "squeezenet_distilled",
+      "classes": 100,
+      "input_resolution": 32,
+      "parameters": 773796,
+      "checkpoint_bytes": 3116217,
+      "selected_epoch": 21,
+      "validation_accuracy": 29.74,
+      "onnx_bytes": 3111482,
+      "cpu_smoke_max_logit_error": 3.814697265625e-06,
+      "cpu_smoke_predictions": [
+        62,
+        83,
+        6
+      ]
+    },
+    {
+      "name": "teacher",
+      "classes": 100,
+      "input_resolution": 32,
+      "parameters": 23705252,
+      "checkpoint_bytes": 95138687,
+      "selected_epoch": 31,
+      "validation_accuracy": 67.12
+    },
+    {
+      "name": "nas_winner",
+      "classes": 10,
+      "input_resolution": 40,
+      "parameters": 56971,
+      "checkpoint_bytes": 251189,
+      "selected_epoch": 34,
+      "validation_accuracy": 84.64,
+      "onnx_bytes": 232106,
+      "cpu_smoke_max_logit_error": 1.6689300537109375e-06,
+      "cpu_smoke_predictions": [
+        6,
+        3,
+        6
+      ]
+    }
+  ]
+}

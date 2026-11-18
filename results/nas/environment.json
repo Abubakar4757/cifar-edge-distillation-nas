@@ -1,0 +1,25 @@
+{
+  "python": "3.13.16",
+  "torch": "2.11.0+cu130",
+  "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+  "cpu_threads": 1,
+  "onnx": "1.23.2",
+  "onnxruntime": "1.32.0",
+  "gpu": "Tesla T4",
+  "arguments": {
+    "task": "nas",
+    "data": "/tmp/assignment4-data",
+    "out": "/kaggle/working/nas",
+    "batch": 192,
+    "teacher_epochs": 32,
+    "student_epochs": 22,
+    "trials": 18,
+    "candidate_epochs": 4,
+    "nas_epochs": 34,
+    "checkpoint": null,
+    "image": null,
+    "arch": "student",
+    "smoke": false,
+    "require_gpu": true
+  }
+}

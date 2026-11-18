@@ -1,0 +1,16 @@
+task,model,runtime,bytes,test_images,test_accuracy,p50_ms,p95_ms,samples
+kd,efficientnet_lite0_baseline,pytorch,14274183,0,,8.953199999999999,11.04252,100
+kd,efficientnet_lite0_baseline,onnxruntime,13951421,0,,1.3249,1.4587599999999998,100
+kd,efficientnet_lite0_distilled,pytorch,14274485,0,,9.03255,11.760279999999996,100
+kd,efficientnet_lite0_distilled,onnxruntime,13951421,0,,1.3108499999999998,1.536805,100
+kd,mobilenet_v2_baseline,pytorch,9657227,0,,7.5992,8.43983,100
+kd,mobilenet_v2_baseline,onnxruntime,9380666,0,,0.91445,1.2091549999999998,100
+kd,mobilenet_v2_distilled,pytorch,9657611,0,,7.5668500000000005,8.459655,100
+kd,mobilenet_v2_distilled,onnxruntime,9380666,0,,0.90215,1.08262,100
+kd,squeezenet_baseline,pytorch,3116159,0,,4.1727,4.525535,100
+kd,squeezenet_baseline,onnxruntime,3111482,0,,0.47825,0.5308199999999998,100
+kd,squeezenet_distilled,pytorch,3116217,0,,3.98685,4.539489999999998,100
+kd,squeezenet_distilled,onnxruntime,3111482,0,,0.48145,0.6207750000000001,100
+kd,teacher,pytorch,95138687,0,,49.64605,51.67421,100
+nas,nas_winner,pytorch,251189,0,,1.51655,1.6810399999999999,100
+nas,nas_winner,onnxruntime,232106,0,,0.34919999999999995,0.40535,100
